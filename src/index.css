@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Glassmorphic effect for the game container */
+.glassmorphic {
+  background: rgba(40, 40, 50, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 24px;
+  border: 1.5px solid rgba(255,255,255,0.18);
+}
+
+/* Full screen background image */
+.bg-image {
+  background: url('.\public\abstract-fire-ice-element-against-vs-each-other-background-heat-cold-concept_1071931-34516.avif') center center/cover no-repeat fixed;
+  min-height: 100vh;
+  width: 100vw;
+}
